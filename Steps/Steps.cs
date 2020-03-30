@@ -62,7 +62,7 @@ namespace PegasusBDD
             baseOperation.SendKeys(By.ClassName(xpath), value);
         }
 
-        [Given("'(.*)' seçimi '(.*)'")]
+        [Given("'(.*)' seçimi '(.*)' yapılır.")]
         public void CalenderSelect(string str,string calender)//Dönüş Bilet, 23.Kasım.2026
         {
             string[] arr = calender.Split(".");//23 Kasım 2026
