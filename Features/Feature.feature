@@ -8,14 +8,14 @@ Scenario: SenaryoOne
 	* 'select2-search__field' objesine 'istanbul-' yazılır. 
 	* '//*[@id='fligth-searh']/div[2]/div[2]/div/span/span[1]/span/span[2]' objesine tıklanır..
 	* 'select2-search__field' objesine 'kayseri' yazılır.
-	* '//*[@id='fligth-searh']/div[3]/div[1]/div/div[1]/span' objesine tıklanır..
+	* '//*[@id='dp1']' objesine tıklanır..
 	* 'Gidiş Bilet' seçimi '10.Mayıs.2020'
 	* 'Dönüş Bileti' seçimi '23.Kasım.2020'
 	* 2 saniye bekle
 	* '//*[@id='flight']//button' objesine tıklanır..
 	* 'Gidiş için' uçuş seçimi yapılır. '//*[@id='boarding-card-body']/div[1]/div[3]/div[2]/div[2]/div[2]/div[1]'
 	* 'Gidiş için' Ekonomik paket seçimi yapılır. '//*[@id='boarding-card-body']/div[1]/div[3]/div[2]/div[2]/div[2]/div[1]/div/div[2]/div[1]/button/div[2]/div'
-	* 2 saniye bekle
+	* 1 saniye bekle
 	* 'Dönüş için' uçuş seçimi yapılır. '//*[@id="boarding-card-body"]/div[1]/div[3]/div[3]/div[2]/div[2]/div[1]'
 	* 'Döüş için' Ekonomik paket seçimi yapılır. '//*[@id="boarding-card-body"]/div[1]/div[3]/div[3]/div[2]/div[2]/div[1]/div/div[2]/div[1]/button/div[2]/div'
 	* 3 saniye bekle

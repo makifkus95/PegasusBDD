@@ -106,8 +106,8 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("2 saniye bekle", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
 #line hidden
 #line 7
- testRunner.And("\'//*[@id=\'fligth-searh\']/div[2]/div[1]/div/span/span[1]/span/span[2]\' objesine tı" +
-                        "klanır..", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
+ testRunner.And("\'//span[@id=\'select2-phbq-container\']/following-sibling::*[1]\' objesine tıklanır." +
+                        ".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
 #line hidden
 #line 8
  testRunner.And("\'select2-search__field\' objesine \'istanbul-\' yazılır.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
